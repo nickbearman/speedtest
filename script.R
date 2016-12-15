@@ -41,7 +41,23 @@ df$speed.d <- gsub("\\)", "", df$speed.b)
   filename <- paste0("summary.txt")
  # cat(paste0("Mean: ", summ$mean), file = filename, sep = "\n")
 	cat(paste0("Mean: ",sum[4], " Mb/s"), file = filename, sep = "\n")
+	
+	overall_mean <- sum[4]
 
+#Last week
+	#calc summary for last week (14 entries)
+	  sum <- summary(tail(df$speed.f,14)) 
+	#print
+	  cat(paste0("Last week: ",sum[4], " Mb/s. Change: ", sum[4] - overall_mean," Mb/s."), file = filename, sep = "\n", append = TRUE)
+
+#Last month	
+  #calc summary for last month (62 entries)
+	  sum <- summary(tail(df$speed.f,62)) 
+  #print
+	  cat(paste0("Last month: ",sum[4], " Mb/s. Change: ", sum[4] - overall_mean," Mb/s."), file = filename, sep = "\n", append = TRUE)
+	  
+	  
+	  
 	cat(paste0("Last entry: ", df[length(df$date),]$speed.f," ",df[length(df$date),]$speed.d," download as at ",df[length(df$date),]$date," ",df[length(df$date),]$time), file = filename, sep = "\n", append = TRUE)
 
 #Loop to print last 10 entries	
