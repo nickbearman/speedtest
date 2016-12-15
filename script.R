@@ -44,6 +44,14 @@ df$speed.d <- gsub("\\)", "", df$speed.b)
 
 	cat(paste0("Last entry: ", df[length(df$date),]$speed.f," ",df[length(df$date),]$speed.d," download as at ",df[length(df$date),]$date," ",df[length(df$date),]$time), file = filename, sep = "\n", append = TRUE)
 
+#Loop to print last 10 entries	
+  #write out first line
+		cat(paste0("Last 10 entries:"), file = filename, sep = "\n", append = TRUE)
+	#loop through and print each line
+  	for (i in 0:10) {
+	  	cat(paste0(format(round(df[length(df$date)-i,]$speed.f,digits = 1), nsmall = 1)," ",df[length(df$date)-i,]$speed.d," download as at ",df[length(df$date)-i,]$date," ",df[length(df$date)-i,]$time), file = filename, sep = "\n", append = TRUE)
+		}
+	  
 #> sum <- summary(DATA$ids)
 
 #data.frame(ids=names(sum), nums=sum)
