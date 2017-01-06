@@ -1,16 +1,16 @@
-Mean: 3.04 Mb/s
-Last week: 3.511 Mb/s. Change: 0.471 Mb/s.
-Last month: 3.243 Mb/s. Change: 0.203 Mb/s.
-Last entry: 3.9 Mb/s download as at 2016-12-17 19:01:26
+Mean: 3.034 Mb/s
+Last week: 2.796 Mb/s. Change: -0.238 Mb/s.
+Last month: 3.197 Mb/s. Change: 0.163 Mb/s.
+Last entry: 3.92 Mb/s download as at 2017-01-06 18:00:09
 Last 10 entries:
-3.9 Mb/s download as at 2016-12-17 19:01:26
-2.3 Mb/s download as at 2016-12-17 07:00:52
-3.0 Mb/s download as at 2016-12-16 07:02:08
-3.9 Mb/s download as at 2016-12-15 07:01:39
-3.4 Mb/s download as at 2016-12-14 19:00:35
-3.2 Mb/s download as at 2016-12-14 07:00:51
-3.6 Mb/s download as at 2016-12-13 19:01:12
-3.9 Mb/s download as at 2016-12-13 07:01:48
-3.0 Mb/s download as at 2016-12-12 19:00:39
-3.6 Mb/s download as at 2016-12-12 07:01:15
-3.7 Mb/s download as at 2016-12-11 19:00:49
+3.9 Mb/s download as at 2017-01-06 18:00:09
+3.5 Mb/s download as at 2017-01-06 17:58:09
+1.4 Mb/s download as at 2017-01-06 07:01:17
+1.6 Mb/s download as at 2017-01-05 19:01:40
+1.7 Mb/s download as at 2017-01-05 07:01:13
+1.7 Mb/s download as at 2017-01-04 19:01:12
+3.3 Mb/s download as at 2017-01-04 07:00:51
+3.7 Mb/s download as at 2017-01-03 19:00:38
+3.2 Mb/s download as at 2017-01-03 07:00:37
+3.5 Mb/s download as at 2017-01-02 19:00:33
+2.8 Mb/s download as at 2017-01-02 07:01:46
