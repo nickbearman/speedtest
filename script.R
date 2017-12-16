@@ -39,8 +39,12 @@ df$speed.d <- gsub("\\)", "", df$speed.b)
  # output_text <- summ$mean
 
   filename <- paste0("summary.txt")
+  
+  #add first line, current date, to ensure file is sufficiently different that dropbox uplaods it. 
+  cat(paste0("Last updated on: ",format(Sys.time(), '%d %B %Y')), file = filename, sep = "\n")
+  
  # cat(paste0("Mean: ", summ$mean), file = filename, sep = "\n")
-	cat(paste0("Mean: ",sum[4], " Mb/s"), file = filename, sep = "\n")
+	cat(paste0("Mean: ",sum[4], " Mb/s"), file = filename, sep = "\n", append = TRUE)
 	
 	overall_mean <- sum[4]
 
