@@ -2,7 +2,9 @@
 #library(ggplot2)
 #library(broom) #tidy
 
+# set working directory
 # setwd("~/Dropbox/Apps/Speed Test Results Uploader")
+setwd("/home/pi/speedtest")
 
 df <- read.table("speedtest-results.txt", fill = TRUE)
 #fill = TRUE sets missing values to NA
